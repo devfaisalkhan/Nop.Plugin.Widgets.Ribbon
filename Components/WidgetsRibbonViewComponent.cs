@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Nop.Core;
 using Nop.Core.Caching;
-using Nop.Plugin.Widgets.Ribbon.Infrastructure.Cache;
 using Nop.Plugin.Widgets.Ribbon.Models;
 using Nop.Services.Caching;
 using Nop.Services.Configuration;
