@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Product Ribbon",
+  "SystemName": "Widgets.Ribbon",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.30" ],
+  "Author": "Kangaroo team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.Ribbon.dll",
+  "Description": "This plugin allows you to add a ribbon on product box"
+}

@@ -1,0 +1,54 @@
+﻿@model Nop.Plugin.Widgets.Ribbon.Models.PublicInfoModel
+@{
+    Layout = "";
+
+    //Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js");
+    Html.AddCssFileParts("~/Plugins/Widgets.Ribbon/Content/ribbon.css");
+    //Html.AddCssFileParts("~/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/custom/custom.css");
+
+    var featuredText = T("Plugin.Widgets.Ribbon.Featured");
+    var newText = T("Plugin.Widgets.Ribbon.New");
+
+    var enableFeatured = Model.EnableFeatured.ToString().ToLower();
+    var enableNew = Model.EnableNew.ToString().ToLower();
+}
+
+    
+    <script asp-location="Footer">
+    $(window).on('load', function () {
+        var productBoxes = $('.item-box .product-item');
+        for (var pb = 0; pb < productBoxes.length; pb++) {
+            var productBox = $(productBoxes[pb]);
+            var productId = productBox.data('productid');
+            //display ribbon
+            checkForNew(productId, productBox);
+        }
+    });
+
+        function checkForNew(productId, productBox) {
+        $.ajax({
+            url: '@Url.RouteUrl("Plugin.Widgets.Ribbon.Ribbon")?productId=' + productId,
+            type: 'GET',
+            success: function (data) {
+                if (data.MarkAsNew && data.ShowOnHomePage && @(enableFeatured)) {
+                    //display featured
+                    var html = '<div class="ribbon ribbon-top-left" style="color:@(Model.BackgroundColor);">';
+                    html += '<span style="background-color:@(Model.BackgroundColor);color:@(Model.Color);">@(featuredText)</span>';
+                    html += '</div>';
+                productBox.append(html);
+            } else if (data.MarkAsNew && @(enableNew)) {
+                    var html = '<div class="ribbon ribbon-top-left" style="color:@(Model.BackgroundColor);">';
+                    html += '<span style="background-color:@(Model.BackgroundColor);color:@(Model.Color);">@(newText)</span>';
+                    html += '</div>';
+                    productBox.append(html);
+                } else if (data.ShowOnHomePage && @(enableFeatured)) {
+                    //display featured
+                    var html = '<div class="ribbon ribbon-top-left" style="color:@(Model.BackgroundColor);">';
+                    html += '<span style="background-color:@(Model.BackgroundColor);color:@(Model.Color);">@(featuredText)</span>';
+                    html += '</div>';
+                    productBox.append(html);
+                }
+            }
+        });
+    }
+    </script>
