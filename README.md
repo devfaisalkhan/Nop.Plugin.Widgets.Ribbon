@@ -6,5 +6,3 @@ This is A Ribbon For a Product ..
 Just Download The Files..
 
 ### Tnx
-
-![Product pic](image url "image title")
