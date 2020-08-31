@@ -4,6 +4,6 @@
 </div>
 
 ## Screenshot 
-![Screenshots](Plugins/Nop.Plugin.Widgets.Ribbon/logo.jpg "Screen Shot")
+![Screenshots](Nop.Plugin.Widgets.Ribbon/logo.jpg "Screen Shot")
 
 ### Tnx
