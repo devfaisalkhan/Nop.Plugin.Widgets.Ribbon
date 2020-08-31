@@ -4,6 +4,6 @@
 </div>
 
 ## Screenshot 
-![Screenshots](E:\Works\nopCommerce\Plugins\Nop.Plugin.Widgets.Ribbon "Screen Shot")
+![Screenshots](/logo.jpg"Screen Shot")
 
 ### Tnx
