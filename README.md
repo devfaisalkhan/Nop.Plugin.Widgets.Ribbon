@@ -1,5 +1,6 @@
 
-  # Nop.Plugin.Widgets.Ribbon
+
+ # Nop.Plugin.Widgets.Ribbon
 Nop.Plugin.Widgets.Ribbon built with nopComerce
 
 
