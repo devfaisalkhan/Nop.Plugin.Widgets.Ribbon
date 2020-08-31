@@ -5,7 +5,7 @@ Nop.Plugin.Widgets.Ribbon built with nopComerce
 
 
 ## Screenshot 
-![Screenshots](Plugins/Nop.Plugin.Widgets.Ribbon/Docs/logo.jpg )
+![Screenshots](~/Plugins/Nop.Plugin.Widgets.Ribbon/Docs/logo.jpg )
 
 # <a name="quick-start"></a>Quick Start
 1. Clone this repository
