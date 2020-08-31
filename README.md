@@ -4,6 +4,6 @@
 </div>
 
 ## Screenshot 
-![Screenshots](/logo.jpg"Screen Shot")
+![Screenshots](/logo.jpg "Screen Shot")
 
 ### Tnx
