@@ -1,7 +1,7 @@
 
 
  # nopCommerce Ribbon Plugin
-This plugin for nopCommerce allows you to add ribbon to a "Mark as New" and "Show on homepage" products. You can change the text shown on ribbon and ribbon also supports RTL as well. 
+This plugin for nopCommerce allows you to add ribbon to a "Mark as New" and "Show on homepage" products. You can change the text shown on ribbon and ribbon also supports RTL as well. Currently the plugin support nopCommerce version 4.30.
 
 ## Screenshot 
 ![Screenshots](/Docs/logo.jpg )
