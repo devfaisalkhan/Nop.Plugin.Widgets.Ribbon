@@ -16,3 +16,4 @@ This plugin for nopCommerce allows you to add ribbon to a "Mark as New" and "Sho
 
 # Publishing
 Very Soon 
+ 
