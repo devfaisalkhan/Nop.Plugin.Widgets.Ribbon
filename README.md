@@ -1,10 +1,9 @@
 
 
  # nopCommerce Ribbon Plugin
-This plugin for nopCommerce allows you to add ribbon to a "Mark as New" and "Show on homepage" products. You can change the text shown on ribbon and ribbon also supports RTL as well. 
-
-## Screenshot 
-![Screenshots](/_docs/Pic.jpg )
+This plugin for nopCommerce allows you to add ribbon to a "Mark as New" and "Show on homepage" products. You can change the text shown on ribbon and ribbon also supports RTL as well. Currently the plugin support nopCommerce version 4.30.
+    
+![Screenshots](/_docs/Pic.jpg)
 
 
 # <a name="quick-start"></a>Quick Start
@@ -17,3 +16,4 @@ This plugin for nopCommerce allows you to add ribbon to a "Mark as New" and "Sho
 
 # Publishing
 Very Soon 
+ 
